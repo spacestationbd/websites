@@ -1,0 +1,933 @@
+<!doctype html>
+<html data-n-head-ssr>
+
+<head>
+  <title>Lopard - Vue Nuxt Data Science & AI Template </title>
+  <meta data-n-head="ssr" charset="utf-8">
+  <meta data-n-head="ssr" name="viewport" content="width=device-width,initial-scale=1">
+  <meta data-n-head="ssr" data-hid="description" name="description" content="">
+  <link data-n-head="ssr" rel="shortcut icon" type="image/x-icon" href="img/logo/favicon.ico">
+  <link data-n-head="ssr" rel="stylesheet" href="/css/bootstrap.min.css">
+  <link data-n-head="ssr" rel="stylesheet" href="/css/owl.carousel.css">
+  <link data-n-head="ssr" rel="stylesheet" href="/css/owl.transitions.css">
+  <link data-n-head="ssr" rel="stylesheet" href="/css/animate.css">
+  <link data-n-head="ssr" rel="stylesheet" href="/css/meanmenu.min.css">
+  <link data-n-head="ssr" rel="stylesheet" href="/css/font-awesome.min.css">
+  <link data-n-head="ssr" rel="stylesheet" href="/css/themify-icons.css">
+  <link data-n-head="ssr" rel="stylesheet" href="/css/flaticon.css">
+  <link data-n-head="ssr" rel="stylesheet" href="/css/venobox.css">
+  <link data-n-head="ssr" rel="stylesheet" href="/css/magnific.min.css">
+  <link data-n-head="ssr" rel="stylesheet" href="/css/style.css">
+  <link data-n-head="ssr" rel="stylesheet" href="/css/responsive.css">
+  <link rel="preload" href="/_nuxt/76f9098747786769b3d7.js" as="script">
+  <link rel="preload" href="/_nuxt/0a202db9e7d19f3ae505.js" as="script">
+  <link rel="preload" href="/_nuxt/c4d1aac90fe63b1413d6.js" as="script">
+  <link rel="preload" href="/_nuxt/101f725ebd68e651bdac.js" as="script">
+  <link rel="preload" href="/_nuxt/22b038ee84c9179e7e9d.js" as="script">
+  <style data-vue-ssr-id="3191d5ad:0">
+    .nuxt-progress {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 2px;
+      width: 0;
+      opacity: 1;
+      transition: width .1s, opacity .4s;
+      background-color: #fff;
+      z-index: 999999
+    }
+
+    .nuxt-progress.nuxt-progress-notransition {
+      transition: none
+    }
+
+    .nuxt-progress-failed {
+      background-color: red
+    }
+  </style>
+</head>
+
+<body>
+  <div data-server-rendered="true" id="__nuxt">
+    <!---->
+    <div id="__layout">
+      <div>
+        <div>
+          <header class="header-one" data-v-562dd9b0>
+            <div class="topbar-area fix hidden-xs" data-v-562dd9b0>
+              <div class="container" data-v-562dd9b0>
+                <div class="row" data-v-562dd9b0>
+                  <div class="col-md-9 col-sm-9" data-v-562dd9b0>
+                    <div class="topbar-left" data-v-562dd9b0>
+                      <ul data-v-562dd9b0>
+                        <li data-v-562dd9b0><a href="#" data-v-562dd9b0><i class="fa fa-envelope" data-v-562dd9b0></i>
+                            info@lopard3.com</a></li>
+                        <li data-v-562dd9b0><a href="#" data-v-562dd9b0><i class="fa fa-phone-square"
+                              data-v-562dd9b0></i> +3234-7665545</a></li>
+                        <li data-v-562dd9b0><a href="#" data-v-562dd9b0><i class="fa fa-clock-o" data-v-562dd9b0></i>
+                            Mon - Fri: 10:00 - 18:00</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-md-3 col-sm-3" data-v-562dd9b0>
+                    <div class="top-social" data-v-562dd9b0>
+                      <ul data-v-562dd9b0>
+                        <li data-v-562dd9b0><a href="#" data-v-562dd9b0><i class="fa fa-skype" data-v-562dd9b0></i></a>
+                        </li>
+                        <li data-v-562dd9b0><a href="#" data-v-562dd9b0><i class="fa fa-twitter"
+                              data-v-562dd9b0></i></a></li>
+                        <li data-v-562dd9b0><a href="#" data-v-562dd9b0><i class="fa fa-facebook"
+                              data-v-562dd9b0></i></a></li>
+                        <li data-v-562dd9b0><a href="#" data-v-562dd9b0><i class="fa fa-google" data-v-562dd9b0></i></a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="sticker" class="header-area hidden-xs" data-v-562dd9b0>
+              <div class="container" data-v-562dd9b0>
+                <div class="row" data-v-562dd9b0>
+                  <div class="col-md-3 col-sm-3" data-v-562dd9b0>
+                    <div class="logo" data-v-562dd9b0><a href="/"
+                        class="navbar-brand nuxt-link-exact-active nuxt-link-active" data-v-562dd9b0><img
+                          src="/img/logo/logo2.png" alt="" data-v-562dd9b0></a></div>
+                  </div>
+                  <div class="col-md-9 col-sm-9" data-v-562dd9b0>
+                    <div class="header-right-link" data-v-562dd9b0><a href="/login" class="s-menu" data-v-562dd9b0>Get
+                        in Estimate</a></div>
+                    <nav class="navbar navbar-default" data-v-562dd9b0>
+                      <div id="navbar-example" class="collapse navbar-collapse" data-v-562dd9b0>
+                        <div class="main-menu" data-v-562dd9b0>
+                          <ul class="nav navbar-nav navbar-right" data-v-562dd9b0>
+                            <li data-v-562dd9b0><a href="/index.html" class="pagess" data-v-562dd9b0>Home</a></li>
+                            <li data-v-562dd9b0><a href="/about.html" class="pagess" data-v-562dd9b0>About</a></li>
+                            <li data-v-562dd9b0><a href="/service.html" class="pagess" data-v-562dd9b0>Services</a></li>
+                            <li data-v-562dd9b0><a href="/project.html" class="pagess" data-v-562dd9b0>Works</a></li>
+                            <li data-v-562dd9b0><a href="/contact.html" data-v-562dd9b0>contacts</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </nav>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="mobile-menu-area hidden-lg hidden-md hidden-sm" data-v-562dd9b0>
+              <div class="container" data-v-562dd9b0>
+                <div class="row" data-v-562dd9b0>
+                  <div class="col-md-12" data-v-562dd9b0>
+                    <div class="mobile-menu" data-v-562dd9b0>
+                      <div class="logo" data-v-562dd9b0><a href="/" class="nuxt-link-exact-active nuxt-link-active"
+                          data-v-562dd9b0><img src="/img/logo/logo2.png" alt="" data-v-562dd9b0></a></div>
+                      <nav id="dropdown" data-v-562dd9b0>
+                        <ul data-v-562dd9b0>
+                          <li data-v-562dd9b0><a href="/#" class="pagess" data-v-562dd9b0>Home</a>
+                            <ul class="sub-menu" data-v-562dd9b0>
+                              <li data-v-562dd9b0><a href="/" class="nuxt-link-exact-active nuxt-link-active"
+                                  data-v-562dd9b0>Home 01</a></li>
+                              <li data-v-562dd9b0><a href="/index-2" data-v-562dd9b0>Home 02</a></li>
+                              <li data-v-562dd9b0><a href="/index-3" data-v-562dd9b0>Home 03</a></li>
+                            </ul>
+                          </li>
+                          <li data-v-562dd9b0><a href="/#" class="pagess" data-v-562dd9b0>Pages</a>
+                            <ul class="sub-menu" data-v-562dd9b0>
+                              <li data-v-562dd9b0><a href="/about" data-v-562dd9b0>About</a></li>
+                              <li data-v-562dd9b0><a href="/team" data-v-562dd9b0>team</a></li>
+                              <li data-v-562dd9b0><a href="/faq" data-v-562dd9b0>FAQ</a></li>
+                              <li data-v-562dd9b0><a href="/review" data-v-562dd9b0>Review</a></li>
+                              <li data-v-562dd9b0><a href="/pricing" data-v-562dd9b0>Pricing</a></li>
+                            </ul>
+                          </li>
+                          <li data-v-562dd9b0><a href="/#" class="pagess" data-v-562dd9b0>Services</a>
+                            <ul class="sub-menu" data-v-562dd9b0>
+                              <li data-v-562dd9b0><a href="/service" data-v-562dd9b0>All services</a></li>
+                              <li data-v-562dd9b0><a href="/service-details" data-v-562dd9b0>Service-details</a></li>
+                            </ul>
+                          </li>
+                          <li data-v-562dd9b0><a href="/#" class="pagess" data-v-562dd9b0>Works</a>
+                            <ul class="sub-menu" data-v-562dd9b0>
+                              <li data-v-562dd9b0><a href="/project" data-v-562dd9b0>Projects 01</a></li>
+                              <li data-v-562dd9b0><a href="/project-2" data-v-562dd9b0>Projects 02</a></li>
+                              <li data-v-562dd9b0><a href="/project-details" data-v-562dd9b0>Project details</a></li>
+                            </ul>
+                          </li>
+                          <li data-v-562dd9b0><a href="/#" class="pagess" data-v-562dd9b0>Blog</a>
+                            <ul class="sub-menu" data-v-562dd9b0>
+                              <li data-v-562dd9b0><a href="/blog" data-v-562dd9b0>Blog grid</a></li>
+                              <li data-v-562dd9b0><a href="/blog-sidebar" data-v-562dd9b0>Blog Sidebar</a></li>
+                              <li data-v-562dd9b0><a href="/blog-details" data-v-562dd9b0>Blog Details</a></li>
+                            </ul>
+                          </li>
+                          <li data-v-562dd9b0><a href="/contact" data-v-562dd9b0>contacts</a></li>
+                        </ul>
+                      </nav>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </header>
+          <div class="intro-area intro-home" data-v-56d415b8>
+            <div class="bg-wrapper" data-v-56d415b8><img src="/img/background/bg.jpg" alt data-v-56d415b8></div>
+            <div class="intro-content" data-v-56d415b8>
+              <div class="slider-content" data-v-56d415b8>
+                <div class="container" data-v-56d415b8>
+                  <div class="row" data-v-56d415b8>
+                    <div class="col-md-6 col-sm-6 col-xs-12" data-v-56d415b8>
+                      <div class="slide-all-text" data-v-56d415b8>
+                        <div data-wow-delay="0.3s" class="layer-1 wow fadeInUp" data-v-56d415b8>
+                          <h2 class="title2" data-v-56d415b8>Build an application powered by <span class="color"
+                              data-v-56d415b8>Machine Learning</span></h2>
+                        </div>
+                        <div data-wow-delay="0.5s" class="layer-2 wow fadeInUp" data-v-56d415b8>
+                          <p data-v-56d415b8>We develop effective plans to move your customers behaviour. customer can
+                            be alwayes his profit.</p>
+                        </div>
+                        <div data-wow-delay="0.7s" class="layer-3 wow fadeInUp" data-v-56d415b8><a href="#"
+                            class="ready-btn" data-v-56d415b8>Get In Touch</a></div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 hidden-xs" data-v-56d415b8>
+                      <div data-wow-delay="0.5s" class="slide-images-inner wow fadeInUp" data-v-56d415b8>
+                        <div class="slide-images" data-v-56d415b8><img src="/img/slider/s1.png" alt data-v-56d415b8>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="about-area area-padding" data-v-3938982e>
+            <div class="container" data-v-3938982e>
+              <div class="row" data-v-3938982e>
+                <div class="col-md-6 col-sm-6 col-xs-12" data-v-3938982e>
+                  <div class="about-content" data-v-3938982e><img src="/img/about/ab.png" alt data-v-3938982e></div>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-12" data-v-3938982e>
+                  <div class="about-text" data-v-3938982e>
+                    <h3 data-v-3938982e>About our <span class="color" data-v-3938982e>Machine Learning</span> software
+                      firm.</h3>
+                    <p data-v-3938982e>Replacing a maintains the amount of lines. When replacing a selection. help
+                      agencies to define their new business objectives and then create. maintains the amount of lines.
+                      When replacing a selection. help agencies to define their new business objectives and then create
+                    </p>
+                    <ul class="hidden-sm" data-v-3938982e>
+                      <li data-v-3938982e><a href="#" data-v-3938982e>Innovation idea latest business tecnology</a></li>
+                      <li data-v-3938982e><a href="#" data-v-3938982e>Digital content marketing online clients
+                          plateform</a></li>
+                      <li data-v-3938982e><a href="#" data-v-3938982e>Safe secure services for you online email
+                          account</a></li>
+                      <li data-v-3938982e><a href="#" data-v-3938982e>Innovation idea latest business tecnology</a></li>
+                    </ul> <a href="/about" class="ab-btn" data-v-3938982e>Learn more</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="service-area bg-color area-padding" data-v-32fec764>
+            <div class="container" data-v-32fec764>
+              <div class="row" data-v-32fec764>
+                <div class="all-service" data-v-32fec764>
+                  <div class="col-md-4 col-sm-6 col-xs-12" data-v-32fec764>
+                    <div class="single-service text-service" data-v-32fec764>
+                      <h3 data-v-32fec764>Digital agency <span class="color" data-v-32fec764>services & Solutions</span>
+                      </h3>
+                      <p data-v-32fec764>Our consultants opt in to the projects they genuinely want to work on.</p> <a
+                        href="#" class="service-btn" data-v-32fec764>All solution</a>
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-sm-6 col-xs-12" data-v-32fec764>
+                    <div class="single-service" data-v-32fec764>
+                      <div class="service-img" data-v-32fec764><img src="/img/service/w1.png" alt data-v-32fec764></div>
+                      <div class="service-content" data-v-32fec764>
+                        <h4 data-v-32fec764><a href="#" data-v-32fec764>Data Preparation</a></h4>
+                        <p data-v-32fec764>Dummy text is also used to demonstrate the appearance of different.
+                          consultants opt in to the projects.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-sm-6 col-xs-12" data-v-32fec764>
+                    <div class="single-service text-service" data-v-32fec764>
+                      <div class="service-img" data-v-32fec764><img src="/img/service/w2.png" alt data-v-32fec764></div>
+                      <div class="service-content" data-v-32fec764>
+                        <h4 data-v-32fec764><a href="#" data-v-32fec764>AI development</a></h4>
+                        <p data-v-32fec764>Dummy text is also used to demonstrate the appearance of different.
+                          consultants opt in to the projects.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-sm-6 col-xs-12" data-v-32fec764>
+                    <div class="single-service" data-v-32fec764>
+                      <div class="service-img" data-v-32fec764><img src="/img/service/w3.png" alt data-v-32fec764></div>
+                      <div class="service-content" data-v-32fec764>
+                        <h4 data-v-32fec764><a href="#" data-v-32fec764>Digital ecommerce</a></h4>
+                        <p data-v-32fec764>Dummy text is also used to demonstrate the appearance of different.
+                          consultants opt in to the projects.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-sm-6 col-xs-12" data-v-32fec764>
+                    <div class="single-service text-service" data-v-32fec764>
+                      <div class="service-img" data-v-32fec764><img src="/img/service/w4.png" alt data-v-32fec764></div>
+                      <div class="service-content" data-v-32fec764>
+                        <h4 data-v-32fec764><a href="#" data-v-32fec764>Consumer technology</a></h4>
+                        <p data-v-32fec764>Dummy text is also used to demonstrate the appearance of different.
+                          consultants opt in to the projects.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-sm-6 col-xs-12" data-v-32fec764>
+                    <div class="single-service" data-v-32fec764>
+                      <div class="service-img" data-v-32fec764><img src="/img/service/w5.png" alt data-v-32fec764></div>
+                      <div class="service-content" data-v-32fec764>
+                        <h4 data-v-32fec764><a href="#" data-v-32fec764>Big data Service</a></h4>
+                        <p data-v-32fec764>Dummy text is also used to demonstrate the appearance of different.
+                          consultants opt in to the projects.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-area fix area-padding" data-v-463a9547>
+            <div class="container" data-v-463a9547>
+              <div class="row" data-v-463a9547>
+                <div class="col-md-12 col-sm-12 col-xs-12" data-v-463a9547>
+                  <div class="tab-menu" data-v-463a9547>
+                    <ul role="tablist" class="nav nav-tabs" data-v-463a9547>
+                      <li class="active" data-v-463a9547><a href="#p-view-1" role="tab" data-toggle="tab"
+                          data-v-463a9547><span class="cha-icon" data-v-463a9547><i class="flaticon-017-automation"
+                              data-v-463a9547></i></span> <span class="cha-title" data-v-463a9547>Research &
+                            solution</span></a></li>
+                      <li data-v-463a9547><a href="#p-view-2" role="tab" data-toggle="tab" data-v-463a9547><span
+                            class="cha-icon" data-v-463a9547><i class="flaticon-036-chip" data-v-463a9547></i></span>
+                          <span class="cha-title" data-v-463a9547>Design & strategy</span></a></li>
+                      <li data-v-463a9547><a href="#p-view-3" role="tab" data-toggle="tab" data-v-463a9547><span
+                            class="cha-icon" data-v-463a9547><i class="flaticon-016-ai" data-v-463a9547></i></span>
+                          <span class="cha-title" data-v-463a9547>Artificial intelligence</span></a></li>
+                      <li data-v-463a9547><a href="#p-view-4" role="tab" data-toggle="tab" data-v-463a9547><span
+                            class="cha-icon" data-v-463a9547><i class="flaticon-091-ai" data-v-463a9547></i></span>
+                          <span class="cha-title" data-v-463a9547>Cloud deployment</span></a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-md-12 col-sm-12 col-xs-12" data-v-463a9547>
+                  <div class="tab-content" data-v-463a9547>
+                    <div id="p-view-1" class="tab-pane active" data-v-463a9547>
+                      <div class="tab-inner" data-v-463a9547>
+                        <div class="single-machine row" data-v-463a9547>
+                          <div class="col-md-6 col-sm-6 col-xs-12" data-v-463a9547>
+                            <div class="tabe-img" data-v-463a9547><img src="/img/service/s1.png" alt data-v-463a9547>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-sm-6 col-xs-12" data-v-463a9547>
+                            <div class="machine-text" data-v-463a9547>
+                              <h3 data-v-463a9547>Enterprise AI and data platform solutions</h3>
+                              <p data-v-463a9547>Dummy text is also used to demonstrate the appearance of different
+                                typefaces and layouts, and in general the content of dummy text is nonsensical. used to
+                                demonstrate the appearance of different typefaces and layouts, and in general the
+                                content of dummy text is nonsensical</p>
+                              <ul data-v-463a9547>
+                                <li data-v-463a9547><a href="#" data-v-463a9547>Innovation idea latest business
+                                    tecnology</a></li>
+                                <li data-v-463a9547><a href="#" data-v-463a9547>Digital content marketing online clients
+                                    plateform</a></li>
+                                <li data-v-463a9547><a href="#" data-v-463a9547>Safe secure services for you online
+                                    email account</a></li>
+                                <li data-v-463a9547><a href="#" data-v-463a9547>Innovation idea latest business
+                                    tecnology</a></li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div id="p-view-2" class="tab-pane" data-v-463a9547>
+                      <div class="tab-inner" data-v-463a9547>
+                        <div class="single-machine row" data-v-463a9547>
+                          <div class="col-md-6 col-sm-6 col-xs-12" data-v-463a9547>
+                            <div class="tabe-img" data-v-463a9547><img src="/img/service/s2.png" alt data-v-463a9547>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-sm-6 col-xs-12" data-v-463a9547>
+                            <div class="machine-text" data-v-463a9547>
+                              <h3 data-v-463a9547>Design and development use latest technology</h3>
+                              <p data-v-463a9547>And in general the content of dummy text is nonsensical. used to
+                                demonstrate the appearance of different typefaces and layouts, and in general the
+                                content of dummy text is nonsensical. Dummy text is also used to demonstrate the
+                                appearance of different typefaces and layouts</p>
+                              <ul data-v-463a9547>
+                                <li data-v-463a9547><a href="#" data-v-463a9547>Innovation idea latest business
+                                    tecnology</a></li>
+                                <li data-v-463a9547><a href="#" data-v-463a9547>Digital content marketing online clients
+                                    plateform</a></li>
+                                <li data-v-463a9547><a href="#" data-v-463a9547>Safe secure services for you online
+                                    email account</a></li>
+                                <li data-v-463a9547><a href="#" data-v-463a9547>Innovation idea latest business
+                                    tecnology</a></li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div id="p-view-3" class="tab-pane" data-v-463a9547>
+                      <div class="tab-inner" data-v-463a9547>
+                        <div class="single-machine row" data-v-463a9547>
+                          <div class="col-md-6 col-sm-6 col-xs-12" data-v-463a9547>
+                            <div class="tabe-img" data-v-463a9547><img src="/img/service/s3.png" alt data-v-463a9547>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-sm-6 col-xs-12" data-v-463a9547>
+                            <div class="machine-text" data-v-463a9547>
+                              <h3 data-v-463a9547>Artificial intelligence use in automobile industry</h3>
+                              <p data-v-463a9547>Used to demonstrate the appearance of different typefaces and layouts,
+                                and in general the content of dummy text is nonsensical. text is also used to
+                                demonstrate the appearance of different typefaces and layouts, and in general the
+                                content of dummy text is nonsensical</p>
+                              <ul data-v-463a9547>
+                                <li data-v-463a9547><a href="#" data-v-463a9547>Innovation idea latest business
+                                    tecnology</a></li>
+                                <li data-v-463a9547><a href="#" data-v-463a9547>Digital content marketing online clients
+                                    plateform</a></li>
+                                <li data-v-463a9547><a href="#" data-v-463a9547>Safe secure services for you online
+                                    email account</a></li>
+                                <li data-v-463a9547><a href="#" data-v-463a9547>Innovation idea latest business
+                                    tecnology</a></li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div id="p-view-4" class="tab-pane" data-v-463a9547>
+                      <div class="tab-inner" data-v-463a9547>
+                        <div class="single-machine row" data-v-463a9547>
+                          <div class="col-md-6 col-sm-6 col-xs-12" data-v-463a9547>
+                            <div class="tabe-img" data-v-463a9547><img src="/img/service/s4.png" alt data-v-463a9547>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-sm-6 col-xs-12" data-v-463a9547>
+                            <div class="machine-text" data-v-463a9547>
+                              <h3 data-v-463a9547>machine learning platform used cloud deployment</h3>
+                              <p data-v-463a9547>Dummy text is also used. used to demonstrate the appearance of
+                                different typefaces and layouts, and in general the content of dummy text is nonsensica
+                                to demonstrate the appearance of different typefaces and layouts, and in general the
+                                content of dummy text is nonsensical.</p>
+                              <ul data-v-463a9547>
+                                <li data-v-463a9547><a href="#" data-v-463a9547>Innovation idea latest business
+                                    tecnology</a></li>
+                                <li data-v-463a9547><a href="#" data-v-463a9547>Digital content marketing online clients
+                                    plateform</a></li>
+                                <li data-v-463a9547><a href="#" data-v-463a9547>Safe secure services for you online
+                                    email account</a></li>
+                                <li data-v-463a9547><a href="#" data-v-463a9547>Innovation idea latest business
+                                    tecnology</a></li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="achivement-area bg-color area-padding" data-v-39f75125>
+            <div class="container" data-v-39f75125>
+              <div class="row" data-v-39f75125>
+                <div class="col-md-12 col-sm-12 col-xs-12" data-v-39f75125>
+                  <div class="section-headline text-center" data-v-39f75125>
+                    <h3 data-v-39f75125>Our achievement</h3>
+                    <p data-v-39f75125>Dummy text is also used to demonstrate the appearance of different typefaces and
+                      layouts</p>
+                  </div>
+                </div>
+              </div>
+              <div class="row" data-v-39f75125>
+                <div class="achivement-content" data-v-39f75125>
+                  <div class="col-md-4 col-sm-4 col-xs-12" data-v-39f75125>
+                    <div class="single-achive" data-v-39f75125>
+                      <div class="achive-image" data-v-39f75125><img src="/img/about/achive1.png" alt data-v-39f75125>
+                      </div>
+                      <div class="achivement-text" data-v-39f75125><span class="achive-number"
+                          data-v-39f75125>10+</span>
+                        <h4 data-v-39f75125>Years expereince</h4>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-sm-4 col-xs-12" data-v-39f75125>
+                    <div class="single-achive" data-v-39f75125>
+                      <div class="achive-image" data-v-39f75125><img src="/img/about/achive2.png" alt data-v-39f75125>
+                      </div>
+                      <div class="achivement-text" data-v-39f75125><span class="achive-number" data-v-39f75125>07</span>
+                        <h4 data-v-39f75125>Offices worldwide</h4>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-sm-4 col-xs-12" data-v-39f75125>
+                    <div class="single-achive" data-v-39f75125>
+                      <div class="achive-image" data-v-39f75125><img src="/img/about/achive3.png" alt data-v-39f75125>
+                      </div>
+                      <div class="achivement-text" data-v-39f75125><span class="achive-number"
+                          data-v-39f75125>400+</span>
+                        <h4 data-v-39f75125>Experts team</h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row" data-v-39f75125>
+                <div class="col-md-12 col-sm-12 col-xs-12" data-v-39f75125>
+                  <div class="we-services" data-v-39f75125>
+                    <div class="digital-services" data-v-39f75125>
+                      <div class="digital-wel s1-item" data-v-39f75125>
+                        <div class="digital-img" data-v-39f75125><a href="#" class="digital-icon" data-v-39f75125><img
+                              src="/img/icon/lopard1.png" alt data-v-39f75125></a></div>
+                        <div class="digital-content" data-v-39f75125>
+                          <h4 data-v-39f75125>Industries & manufacturing</h4>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="digital-services" data-v-39f75125>
+                      <div class="digital-wel s2-item" data-v-39f75125>
+                        <div class="digital-img" data-v-39f75125><a href="#" class="digital-icon" data-v-39f75125><img
+                              src="/img/icon/lopard2.png" alt data-v-39f75125></a></div>
+                        <div class="digital-content" data-v-39f75125>
+                          <h4 data-v-39f75125>Automobile & transportation</h4>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="digital-services" data-v-39f75125>
+                      <div class="digital-wel s4-item" data-v-39f75125>
+                        <div class="digital-img" data-v-39f75125><a href="#" class="digital-icon" data-v-39f75125><img
+                              src="/img/icon/lopard3.png" alt data-v-39f75125></a></div>
+                        <div class="digital-content" data-v-39f75125>
+                          <h4 data-v-39f75125>Food & agriculture</h4>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="digital-services" data-v-39f75125>
+                      <div class="digital-wel s3-item" data-v-39f75125>
+                        <div class="digital-img" data-v-39f75125><a href="#" class="digital-icon" data-v-39f75125><img
+                              src="/img/icon/lopard4.png" alt data-v-39f75125></a></div>
+                        <div class="digital-content" data-v-39f75125>
+                          <h4 data-v-39f75125>Health & humanbody</h4>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="digital-services" data-v-39f75125>
+                      <div class="digital-wel s5-item" data-v-39f75125>
+                        <div class="digital-img" data-v-39f75125><a href="#" class="digital-icon" data-v-39f75125><img
+                              src="/img/icon/lopard5.png" alt data-v-39f75125></a></div>
+                        <div class="digital-content" data-v-39f75125>
+                          <h4 data-v-39f75125>Media & entertainment</h4>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project-area area-padding" data-v-48258c8e>
+            <div class="container" data-v-48258c8e>
+              <div class="row" data-v-48258c8e>
+                <div class="col-md-12 col-sm-12 col-xs-12" data-v-48258c8e>
+                  <div class="section-headline text-center" data-v-48258c8e>
+                    <h3 data-v-48258c8e>Our successful goal</h3>
+                    <p data-v-48258c8e>Dummy text is also used to demonstrate the appearance of different typefaces and
+                      layouts</p>
+                  </div>
+                </div>
+              </div>
+              <div class="row" data-v-48258c8e>
+                <div class="project-carousel" data-v-48258c8e>
+                  <div class="col-md-4 col-sm-4 col-xs-12" data-v-48258c8e>
+                    <div class="single-awesome-project" data-v-48258c8e>
+                      <div class="awesome-img" data-v-48258c8e><a href="#" data-v-48258c8e><img src="/img/project/1.jpg"
+                            alt data-v-48258c8e></a>
+                        <div class="add-actions text-center" data-v-48258c8e><a data-gall="myGallery"
+                            href="/img/project/1.jpg" class="venobox" data-v-48258c8e><i class="port-icon ti-zoom-in"
+                              data-v-48258c8e></i></a></div>
+                      </div>
+                      <div class="project-dec" data-v-48258c8e>
+                        <h4 data-v-48258c8e>Data collection</h4>
+                        <p data-v-48258c8e>Our development opt in to the projects they genuinely want to work on,
+                          committing wholeheartedly to delivering.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-sm-4 col-xs-12" data-v-48258c8e>
+                    <div class="single-awesome-project" data-v-48258c8e>
+                      <div class="awesome-img" data-v-48258c8e><a href="#" data-v-48258c8e><img src="/img/project/2.jpg"
+                            alt data-v-48258c8e></a>
+                        <div class="add-actions text-center" data-v-48258c8e><a data-gall="myGallery"
+                            href="/img/project/2.jpg" class="venobox" data-v-48258c8e><i class="port-icon ti-zoom-in"
+                              data-v-48258c8e></i></a></div>
+                      </div>
+                      <div class="project-dec" data-v-48258c8e>
+                        <h4 data-v-48258c8e>Models development</h4>
+                        <p data-v-48258c8e>Our development opt in to the projects they genuinely want to work on,
+                          committing wholeheartedly to delivering.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-sm-4 col-xs-12" data-v-48258c8e>
+                    <div class="single-awesome-project" data-v-48258c8e>
+                      <div class="awesome-img" data-v-48258c8e><a href="#" data-v-48258c8e><img src="/img/project/3.jpg"
+                            alt data-v-48258c8e></a>
+                        <div class="add-actions text-center" data-v-48258c8e><a data-gall="myGallery"
+                            href="img/project/3.jpg" class="venobox" data-v-48258c8e><i class="port-icon ti-zoom-in"
+                              data-v-48258c8e></i></a></div>
+                      </div>
+                      <div class="project-dec" data-v-48258c8e>
+                        <h4 data-v-48258c8e>Service deployment</h4>
+                        <p data-v-48258c8e>Our development opt in to the projects they genuinely want to work on,
+                          committing wholeheartedly to delivering.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-sm-4 col-xs-12" data-v-48258c8e>
+                    <div class="single-awesome-project" data-v-48258c8e>
+                      <div class="awesome-img" data-v-48258c8e><a href="#" data-v-48258c8e><img src="/img/project/4.jpg"
+                            alt data-v-48258c8e></a>
+                        <div class="add-actions text-center" data-v-48258c8e><a data-gall="myGallery"
+                            href="/img/project/4.jpg" class="venobox" data-v-48258c8e><i class="port-icon ti-zoom-in"
+                              data-v-48258c8e></i></a></div>
+                      </div>
+                      <div class="project-dec" data-v-48258c8e>
+                        <h4 data-v-48258c8e>Environment project</h4>
+                        <p data-v-48258c8e>Our development opt in to the projects they genuinely want to work on,
+                          committing wholeheartedly to delivering.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-sm-4 col-xs-12" data-v-48258c8e>
+                    <div class="single-awesome-project" data-v-48258c8e>
+                      <div class="awesome-img" data-v-48258c8e><a href="#" data-v-48258c8e><img src="/img/project/5.jpg"
+                            alt data-v-48258c8e></a>
+                        <div class="add-actions text-center" data-v-48258c8e><a data-gall="myGallery"
+                            href="/img/project/5.jpg" class="venobox" data-v-48258c8e><i class="port-icon ti-zoom-in"
+                              data-v-48258c8e></i></a></div>
+                      </div>
+                      <div class="project-dec" data-v-48258c8e>
+                        <h4 data-v-48258c8e>Design solution</h4>
+                        <p data-v-48258c8e>Our development opt in to the projects they genuinely want to work on,
+                          committing wholeheartedly to delivering.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="reviews-area bg-color fix area-padding" data-v-f12ce3b8>
+            <div class="container" data-v-f12ce3b8>
+              <div class="row" data-v-f12ce3b8>
+                <div class="reviews-top" data-v-f12ce3b8>
+                  <div class="col-md-5 col-sm-5 col-xs-12" data-v-f12ce3b8>
+                    <div class="testimonial-inner" data-v-f12ce3b8>
+                      <div class="review-head" data-v-f12ce3b8>
+                        <h3 data-v-f12ce3b8>Our customer say <span class="color" data-v-f12ce3b8> about our
+                            company</span> work</h3>
+                        <p data-v-f12ce3b8>The phrasal sequence of the Lorem Ipsum text is now so widespread and
+                          commonplace that many DTP programmes can generate dummy. The phrasal sequence of the Lorem
+                          Ipsum text is now so widespread and commonplace that many DTP programmes can generate dummy
+                        </p> <a href="/review" class="reviews-btn" data-v-f12ce3b8>More reviews</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-7 col-sm-7 col-xs-12" data-v-f12ce3b8>
+                    <div class="reviews-content" data-v-f12ce3b8>
+                      <div class="testimonial-carousel item-indicator" data-v-f12ce3b8>
+                        <div class="single-testi" data-v-f12ce3b8>
+                          <div class="testi-text" data-v-f12ce3b8>
+                            <div class="clients-text" data-v-f12ce3b8>
+                              <div class="client-rating" data-v-f12ce3b8><a href="#" data-v-f12ce3b8><i class="ti-star"
+                                    data-v-f12ce3b8></i></a> <a href="#" data-v-f12ce3b8><i class="ti-star"
+                                    data-v-f12ce3b8></i></a> <a href="#" data-v-f12ce3b8><i class="ti-star"
+                                    data-v-f12ce3b8></i></a> <a href="#" data-v-f12ce3b8><i class="ti-star"
+                                    data-v-f12ce3b8></i></a> <a href="#" data-v-f12ce3b8><i class="ti-star"
+                                    data-v-f12ce3b8></i></a></div>
+                              <p data-v-f12ce3b8>When replacing a multi-lined selection of text, the generated dummy
+                                text maintains the amount of lines. When replacing a selection. help agencies.</p>
+                            </div>
+                            <div class="testi-img" data-v-f12ce3b8><img src="/img/review/1.jpg" alt data-v-f12ce3b8>
+                              <div class="guest-details" data-v-f12ce3b8>
+                                <h4 data-v-f12ce3b8>Hamilton</h4> <span class="guest-rev" data-v-f12ce3b8>Clients - <a
+                                    href="#" data-v-f12ce3b8>General customer</a></span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="single-testi" data-v-f12ce3b8>
+                          <div class="testi-text" data-v-f12ce3b8>
+                            <div class="clients-text" data-v-f12ce3b8>
+                              <div class="client-rating" data-v-f12ce3b8><a href="#" data-v-f12ce3b8><i class="ti-star"
+                                    data-v-f12ce3b8></i></a> <a href="#" data-v-f12ce3b8><i class="ti-star"
+                                    data-v-f12ce3b8></i></a> <a href="#" data-v-f12ce3b8><i class="ti-star"
+                                    data-v-f12ce3b8></i></a> <a href="#" data-v-f12ce3b8><i class="ti-star"
+                                    data-v-f12ce3b8></i></a> <a href="#" data-v-f12ce3b8><i class="ti-star"
+                                    data-v-f12ce3b8></i></a></div>
+                              <p data-v-f12ce3b8>When replacing a multi-lined selection of text, the generated dummy
+                                text maintains the amount of lines. When replacing a selection. help agencies.</p>
+                            </div>
+                            <div class="testi-img" data-v-f12ce3b8><img src="/img/review/2.jpg" alt data-v-f12ce3b8>
+                              <div class="guest-details" data-v-f12ce3b8>
+                                <h4 data-v-f12ce3b8>Angel lima</h4> <span class="guest-rev" data-v-f12ce3b8>Clients - <a
+                                    href="#" data-v-f12ce3b8>General customer</a></span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="single-testi" data-v-f12ce3b8>
+                          <div class="testi-text" data-v-f12ce3b8>
+                            <div class="clients-text" data-v-f12ce3b8>
+                              <div class="client-rating" data-v-f12ce3b8><a href="#" data-v-f12ce3b8><i class="ti-star"
+                                    data-v-f12ce3b8></i></a> <a href="#" data-v-f12ce3b8><i class="ti-star"
+                                    data-v-f12ce3b8></i></a> <a href="#" data-v-f12ce3b8><i class="ti-star"
+                                    data-v-f12ce3b8></i></a> <a href="#" data-v-f12ce3b8><i class="ti-star"
+                                    data-v-f12ce3b8></i></a> <a href="#" data-v-f12ce3b8><i class="ti-star"
+                                    data-v-f12ce3b8></i></a></div>
+                              <p data-v-f12ce3b8>When replacing a multi-lined selection of text, the generated dummy
+                                text maintains the amount of lines. When replacing a selection. help agencies.</p>
+                            </div>
+                            <div class="testi-img" data-v-f12ce3b8><img src="/img/review/3.jpg" alt data-v-f12ce3b8>
+                              <div class="guest-details" data-v-f12ce3b8>
+                                <h4 data-v-f12ce3b8>Arthur Doil</h4> <span class="guest-rev" data-v-f12ce3b8>Clients -
+                                  <a href="#" data-v-f12ce3b8>General customer</a></span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="single-testi" data-v-f12ce3b8>
+                          <div class="testi-text" data-v-f12ce3b8>
+                            <div class="clients-text" data-v-f12ce3b8>
+                              <div class="client-rating" data-v-f12ce3b8><a href="#" data-v-f12ce3b8><i class="ti-star"
+                                    data-v-f12ce3b8></i></a> <a href="#" data-v-f12ce3b8><i class="ti-star"
+                                    data-v-f12ce3b8></i></a> <a href="#" data-v-f12ce3b8><i class="ti-star"
+                                    data-v-f12ce3b8></i></a> <a href="#" data-v-f12ce3b8><i class="ti-star"
+                                    data-v-f12ce3b8></i></a> <a href="#" data-v-f12ce3b8><i class="ti-star"
+                                    data-v-f12ce3b8></i></a></div>
+                              <p data-v-f12ce3b8>When replacing a multi-lined selection of text, the generated dummy
+                                text maintains the amount of lines. When replacing a selection. help agencies.</p>
+                            </div>
+                            <div class="testi-img" data-v-f12ce3b8><img src="/img/review/4.jpg" alt data-v-f12ce3b8>
+                              <div class="guest-details" data-v-f12ce3b8>
+                                <h4 data-v-f12ce3b8>Gabriel Hank</h4> <span class="guest-rev" data-v-f12ce3b8>Clients -
+                                  <a href="#" data-v-f12ce3b8>General customer</a></span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="blog-area fix area-padding-2" data-v-7bfa4d0f>
+            <div class="container" data-v-7bfa4d0f>
+              <div class="row" data-v-7bfa4d0f>
+                <div class="col-md-12 col-sm-12 col-xs-12" data-v-7bfa4d0f>
+                  <div class="section-headline text-center" data-v-7bfa4d0f>
+                    <h3 data-v-7bfa4d0f>Machine Learning news</h3>
+                    <p data-v-7bfa4d0f>Dummy text is also used to demonstrate the appearance of different typefaces and
+                      layouts</p>
+                  </div>
+                </div>
+              </div>
+              <div class="row" data-v-7bfa4d0f>
+                <div class="blog-grid home-blog" data-v-7bfa4d0f>
+                  <div class="col-md-4 col-sm-6 col-xs-12" data-v-7bfa4d0f>
+                    <div class="single-blog" data-v-7bfa4d0f>
+                      <div class="blog-image" data-v-7bfa4d0f><a href="#" class="image-scale" data-v-7bfa4d0f><img
+                            src="/img/blog/b1.jpg" alt data-v-7bfa4d0f></a></div>
+                      <div class="blog-content" data-v-7bfa4d0f>
+                        <div class="blog-meta" data-v-7bfa4d0f><span class="admin-type" data-v-7bfa4d0f><i
+                              class="fa fa-user" data-v-7bfa4d0f></i>Admin</span> <span class="date-type"
+                            data-v-7bfa4d0f><i class="fa fa-calendar" data-v-7bfa4d0f></i>20 july, 2019</span> <span
+                            class="comments-type" data-v-7bfa4d0f><i class="fa fa-comment-o"
+                              data-v-7bfa4d0f></i>13</span></div> <a href="#" data-v-7bfa4d0f>
+                          <h4 data-v-7bfa4d0f>Creative design clients response is better</h4>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-sm-6 col-xs-12" data-v-7bfa4d0f>
+                    <div class="single-blog" data-v-7bfa4d0f>
+                      <div class="blog-image" data-v-7bfa4d0f><a href="#" class="image-scale" data-v-7bfa4d0f><img
+                            src="/img/blog/b2.jpg" alt data-v-7bfa4d0f></a></div>
+                      <div class="blog-content" data-v-7bfa4d0f>
+                        <div class="blog-meta" data-v-7bfa4d0f><span class="admin-type" data-v-7bfa4d0f><i
+                              class="fa fa-user" data-v-7bfa4d0f></i>Admin</span> <span class="date-type"
+                            data-v-7bfa4d0f><i class="fa fa-calendar" data-v-7bfa4d0f></i>13 may, 2018</span> <span
+                            class="comments-type" data-v-7bfa4d0f><i class="fa fa-comment-o"
+                              data-v-7bfa4d0f></i>16</span></div> <a href="#" data-v-7bfa4d0f>
+                          <h4 data-v-7bfa4d0f>Web development is a best work in future world</h4>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-sm-6 col-xs-12" data-v-7bfa4d0f>
+                    <div class="single-blog" data-v-7bfa4d0f>
+                      <div class="blog-image" data-v-7bfa4d0f><a href="#" class="image-scale" data-v-7bfa4d0f><img
+                            src="/img/blog/b3.jpg" alt data-v-7bfa4d0f></a></div>
+                      <div class="blog-content" data-v-7bfa4d0f>
+                        <div class="blog-meta" data-v-7bfa4d0f><span class="admin-type" data-v-7bfa4d0f><i
+                              class="fa fa-user" data-v-7bfa4d0f></i>Admin</span> <span class="date-type"
+                            data-v-7bfa4d0f><i class="fa fa-calendar" data-v-7bfa4d0f></i>24 april, 2019</span> <span
+                            class="comments-type" data-v-7bfa4d0f><i class="fa fa-comment-o"
+                              data-v-7bfa4d0f></i>07</span></div> <a href="#" data-v-7bfa4d0f>
+                          <h4 data-v-7bfa4d0f>You can trust me and business with together</h4>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="hidden-md hidden-lg col-sm-6 col-xs-12" data-v-7bfa4d0f>
+                    <div class="single-blog" data-v-7bfa4d0f>
+                      <div class="blog-image" data-v-7bfa4d0f><a href="#" class="image-scale" data-v-7bfa4d0f><img
+                            src="/img/blog/b4.jpg" alt data-v-7bfa4d0f></a></div>
+                      <div class="blog-content" data-v-7bfa4d0f>
+                        <div class="blog-meta" data-v-7bfa4d0f><span class="admin-type" data-v-7bfa4d0f><i
+                              class="fa fa-user" data-v-7bfa4d0f></i>Admin</span> <span class="date-type"
+                            data-v-7bfa4d0f><i class="fa fa-calendar" data-v-7bfa4d0f></i>28 june, 2019</span> <span
+                            class="comments-type" data-v-7bfa4d0f><i class="fa fa-comment-o"
+                              data-v-7bfa4d0f></i>32</span></div> <a href="#" data-v-7bfa4d0f>
+                          <h4 data-v-7bfa4d0f>business man want to be benifit any way</h4>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <footer class="footer1" data-v-69fdaee0>
+            <div class="footer-area" data-v-69fdaee0>
+              <div class="container" data-v-69fdaee0>
+                <div class="row" data-v-69fdaee0>
+                  <div class="col-md-5 col-sm-5 col-xs-12" data-v-69fdaee0>
+                    <div class="footer-content logo-footer" data-v-69fdaee0>
+                      <div class="footer-head" data-v-69fdaee0>
+                        <div class="footer-logo" data-v-69fdaee0><a href="#" class="footer-black-logo"
+                            data-v-69fdaee0><img src="/img/logo/logo2.png" alt data-v-69fdaee0></a></div>
+                        <p data-v-69fdaee0>
+                          Are you looking for professional advice for your new business. Are you looking for
+                          professional advice for your new business. Are you looking for professional advice for your
+                          new business.
+                        </p>
+                        <div class="subs-feilds" data-v-69fdaee0>
+                          <div class="suscribe-input" data-v-69fdaee0><input type="email" id="sus_email"
+                              placeholder="Type Email" class="email form-control width-80" data-v-69fdaee0> <button
+                              type="submit" id="sus_submit" class="add-btn" data-v-69fdaee0>Subscribe</button></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-sm-3 col-xs-12" data-v-69fdaee0>
+                    <div class="footer-content" data-v-69fdaee0>
+                      <div class="footer-head" data-v-69fdaee0>
+                        <h4 data-v-69fdaee0>Services Link</h4>
+                        <ul class="footer-list" data-v-69fdaee0>
+                          <li data-v-69fdaee0><a href="#" data-v-69fdaee0>Business</a></li>
+                          <li data-v-69fdaee0><a href="#" data-v-69fdaee0>Agency </a></li>
+                          <li data-v-69fdaee0><a href="#" data-v-69fdaee0>Social media</a></li>
+                          <li data-v-69fdaee0><a href="#" data-v-69fdaee0>Branding</a></li>
+                          <li data-v-69fdaee0><a href="#" data-v-69fdaee0>Design </a></li>
+                        </ul>
+                        <ul class="footer-list hidden-sm" data-v-69fdaee0>
+                          <li data-v-69fdaee0><a href="#" data-v-69fdaee0>Search engine</a></li>
+                          <li data-v-69fdaee0><a href="#" data-v-69fdaee0>Online support</a></li>
+                          <li data-v-69fdaee0><a href="#" data-v-69fdaee0>Development</a></li>
+                          <li data-v-69fdaee0><a href="#" data-v-69fdaee0>Pay per click</a></li>
+                          <li data-v-69fdaee0><a href="#" data-v-69fdaee0>Event activation</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3 col-sm-4 col-xs-12" data-v-69fdaee0>
+                    <div class="footer-content last-content" data-v-69fdaee0>
+                      <div class="footer-head" data-v-69fdaee0>
+                        <h4 data-v-69fdaee0>Information</h4>
+                        <div class="footer-contacts" data-v-69fdaee0>
+                          <p data-v-69fdaee0><span data-v-69fdaee0>Tel :</span> +0890-564-5644</p>
+                          <p data-v-69fdaee0><span data-v-69fdaee0>Email :</span> info@lopard3.com</p>
+                          <p data-v-69fdaee0><span data-v-69fdaee0>Location :</span> House- 65/4, London</p>
+                        </div>
+                        <div class="footer-icons" data-v-69fdaee0>
+                          <ul data-v-69fdaee0>
+                            <li data-v-69fdaee0><a href="#" data-v-69fdaee0><i class="fa fa-facebook"
+                                  data-v-69fdaee0></i></a></li>
+                            <li data-v-69fdaee0><a href="#" data-v-69fdaee0><i class="fa fa-twitter"
+                                  data-v-69fdaee0></i></a></li>
+                            <li data-v-69fdaee0><a href="#" data-v-69fdaee0><i class="fa fa-google"
+                                  data-v-69fdaee0></i></a></li>
+                            <li data-v-69fdaee0><a href="#" data-v-69fdaee0><i class="fa fa-pinterest"
+                                  data-v-69fdaee0></i></a></li>
+                            <li data-v-69fdaee0><a href="#" data-v-69fdaee0><i class="fa fa-instagram"
+                                  data-v-69fdaee0></i></a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="footer-area-bottom" data-v-69fdaee0>
+              <div class="container" data-v-69fdaee0>
+                <div class="row" data-v-69fdaee0>
+                  <div class="col-md-6 col-sm-6 col-xs-12" data-v-69fdaee0>
+                    <div class="copyright" data-v-69fdaee0>
+                      <p data-v-69fdaee0>
+                        Copyright © 2020
+                        <a href="#" data-v-69fdaee0>Lopard</a> All Rights Reserved
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </footer>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+    window.__NUXT__ = {
+      layout: "default",
+      data: [{}],
+      fetch: [],
+      error: null,
+      state: {},
+      serverRendered: !0,
+      routePath: "/"
+    }
+  </script>
+  <script src="/_nuxt/76f9098747786769b3d7.js" defer></script>
+  <script src="/_nuxt/101f725ebd68e651bdac.js" defer></script>
+  <script src="/_nuxt/22b038ee84c9179e7e9d.js" defer></script>
+  <script src="/_nuxt/0a202db9e7d19f3ae505.js" defer></script>
+  <script src="/_nuxt/c4d1aac90fe63b1413d6.js" defer></script>
+  <script data-n-head="ssr" src="/js/vendor/jquery-1.12.4.min.js" type="text/javascript" data-body="true"></script>
+  <script data-n-head="ssr" src="/js/vendor/modernizr-2.8.3.min.js" type="text/javascript" data-body="true"></script>
+  <script data-n-head="ssr" src="/js/bootstrap.min.js" type="text/javascript" data-body="true"></script>
+  <script data-n-head="ssr" src="/js/owl.carousel.min.js" type="text/javascript" data-body="true"></script>
+  <script data-n-head="ssr" src="/js/venobox.min.js" type="text/javascript" data-body="true"></script>
+  <script data-n-head="ssr" src="/js/magnific.min.js" type="text/javascript" data-body="true"></script>
+  <script data-n-head="ssr" src="/js/wow.min.js" type="text/javascript" data-body="true"></script>
+  <script data-n-head="ssr" src="/js/jquery.meanmenu.js" type="text/javascript" data-body="true"></script>
+  <script data-n-head="ssr" src="/js/form-validator.min.js" type="text/javascript" data-body="true"></script>
+  <script data-n-head="ssr" src="/js/plugins.js" type="text/javascript" data-body="true"></script>
+</body>
+
+</html>
